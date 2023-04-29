@@ -54,7 +54,7 @@
         </button>
       </div>
       <div class="modal-body">
-        <form action="processaExclusaoProf.jsp" method="post" id="cadastro">
+        <form action="processaExclusaoProfessor.jsp" method="post" id="cadastro">
             Deseja Excluir o professor?<br><br>
             <input type="hidden" id="txtCod" name="txtCod" value="<%=id %>">
                 <input type="submit" name="btnAtualizar" class="btn btn-primary" value="Sim">
